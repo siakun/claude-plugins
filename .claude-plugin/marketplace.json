@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "siakun-plugins",
+  "version": "0.1.0",
+  "description": "Siakun's Claude Code plugins",
+  "owner": {
+    "name": "siakun"
+  },
+  "plugins": [
+    {
+      "name": "terminal-control",
+      "description": "Control Antigravity terminals via Win32 Console API - interactive SSH, REPL, and more",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/siakun/terminal-control.git",
+        "sha": "e7afde9b59f59b737ddc5dddccb652836963205e"
+      }
+    }
+  ]
+}
